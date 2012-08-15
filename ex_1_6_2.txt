@@ -1,0 +1,2 @@
+// ex 1-6 
+#include<stdio.h>
