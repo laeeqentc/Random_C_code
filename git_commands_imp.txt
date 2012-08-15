@@ -1,0 +1,1000 @@
+ 1105  cat /proc/devices 
+ 1106  cat /proc/devices |tail -9
+ 1107  cat /proc/devices |tail -11
+ 1108  cat /proc/devices |tail -20 
+ 1109  cat /proc/devices
+ 1110  ls
+ 1111  make 
+ 1112  make clean 
+ 1113  make 
+ 1114  make clean 
+ 1115  make 
+ 1116  sudo rmmod test_hello_driver.ko 
+ 1117  sudo insmod test_hello_driver.ko 
+ 1118  lsmod |grep te
+ 1119  cat /proc/devices 
+ 1120  ls -l /dev/ |grep "251,"
+ 1121  cat /proc/devices 
+ 1122  cat /proc/devices |grep la
+ 1123  cat /proc/devices |grep L
+ 1124  ls -l /dev/ |grep "251,"
+ 1125  ls /dev/
+ 1126  ls /dev/ |grep L
+ 1127  sudo mknod /dev/ofcd0 c 251 0 
+ 1128  sudo mknod /dev/ofcd0 c 251 2
+ 1129  sudo mknod /dev/ofcd1 c 251 1
+ 1130  sudo mknod /dev/ofcd2 c 251 2
+ 1131  ls -l /dev/ofcd*
+ 1132  cat /dev/ofcd0 
+ 1133  echo hi > /dev/ofcd0 
+ 1134  sudo -i 
+ 1135  sudo atftpd --daemon
+ 1136  sudo poweroff
+ 1137  sudo -i 
+ 1138  sudo atftpd --daemon 
+ 1139  sudo -i 
+ 1140  ssh 192.168.9.94 
+ 1141  ssh 192.168.9.94|root
+ 1142  man ssh 
+ 1143  ssh 192.168.9.94 -l root 
+ 1144  ls
+ 1145  ssh 192.168.9.95 -l root 
+ 1146  ls
+ 1147  ssh 192.168.9.96 -l root 
+ 1148  exit 
+ 1149  cd /home/mamigo/Downloads/
+ 1150  ls
+ 1151  cp *.pdf /media/Laeeq_2GB/ -v 
+ 1152  cp *.txt  /media/Laeeq_2GB/ -v 
+ 1153  ping 192.168.9.88 
+ 1154  telent 192.168.9.88 
+ 1155  telnet  192.168.9.88 
+ 1156  telnet  192.168.9.89
+ 1157  telnet  192.168.9.90
+ 1158  telnet  192.168.9.94
+ 1159  sudo apt-get install zenmap 
+ 1160  ssh 192.168.9.94 -l root 
+ 1161  exit
+ 1162  lshw 
+ 1163  sudo lshw 
+ 1164  sudo lshw -class network 
+ 1165  man lshw 
+ 1166  sudo lshw 
+ 1167  nmap 
+ 1168  sudo apt-get install nmap 
+ 1169  man nmap 
+ 1170  nmap -sP 192.168.9.0/255
+ 1171  nmap -sP 192.168.9.0/24
+ 1172  nmap -sP -o 192.168.9.0/24
+ 1173  nmap -sP -O 192.168.9.0/24
+ 1174  sudo nmap -sP -O 192.168.9.0/24
+ 1175  sudo nmap -sT -O 192.168.9.0/24
+ 1176  sudo nmap -sT -O 192.168.9.30 
+ 1177  sudo nmap -sT -O 192.168.40.1
+ 1178  sudo nmap -sT -O 192.168.40.2
+ 1179  sudo nmap -sT -O 192.168.9.0/254
+ 1180  sudo nmap -sT -O 192.168.9.0/32
+ 1181  sudo nmap -sT -O 192.168.9.0/24
+ 1182  sudo nmap -sT -O 192.168.9.0/24 >> namp_devices_list.txt 
+ 1183  gedit namp_devices_list.txt 
+ 1184  sudo nmap -sT -O 192.168.9.0-255 >> namp_devices_list_1.txt 
+ 1185  sudo apt-get python-tftpy 
+ 1186  sudo apt-get install python-tftpy 
+ 1187  ssh 192.168.9.110 -l root 
+ 1188  ping google.com
+ 1189  sudo atftpd --daemon
+ 1190  ssh 192.168.9.94 -l root 
+ 1191  ls
+ 1192  telnet 
+ 1193  telnet 192.168.9.94 
+ 1194  telnet 192.168.9.94:8080
+ 1195  telnet 192.168.9.94
+ 1196  sudo poweroff
+ 1197  cd /srv/tftp/
+ 1198  ls
+ 1199  ls -al 
+ 1200  sudo rm -rf uImage
+ 1201  sudo ln -s /home/mamigo/mamigo_laeeq/uclinux_bfin/md_image/blackfin-linux-dist/images/uImage . 
+ 1202  sudo atftpd --daemon
+ 1203  sudo poweroff
+ 1204  sudo atftpd --daemon 
+ 1205  ls
+ 1206  sudo poweroff
+ 1207  cd /home/mamigo/mamigo_laeeq/c_prog_K\&R/
+ 1208  ls
+ 1209  cd ..
+ 1210  cd c_prog_K_and_R/ch1/
+ 1211  gcc first_hello.c -o first_hello 
+ 1212  ./first_hello 
+ 1213  cd /home/mamigo/mamigo_laeeq/c_prog_K_and_R/ch1/
+ 1214  ls
+ 1215  gcc first_hello.c -o first_hello
+ 1216  ./first_hello 
+ 1217  gcc first_hello.c -o first_hello
+ 1218  ./first_hello 
+ 1219  ls
+ 1220  gcc far_to_cel.c -o far_to_cel
+ 1221  ./far_to_cel 
+ 1222  gcc far_to_cel_1.c -o far_to_cel_1 
+ 1223  ./far_to_cel_1 
+ 1224  gcc far_to_cel_1.c -o far_to_cel_1 
+ 1225  ./far_to_cel_1 
+ 1226  gcc far_to_cel_1.c -o far_to_cel_1 
+ 1227  ./far_to_cel_1 
+ 1228  gcc far_to_cel_1.c -o far_to_cel_1 
+ 1229  ./far_to_cel_1 
+ 1230  gcc far_to_cel_2.c -o far_to_cel_2 
+ 1231  ./far_to_cel_1 
+ 1232  gcc far_to_cel_2.c -o far_to_cel_2 
+ 1233  ./far_to_cel_1 
+ 1234  gcc far_to_cel_2.c -o far_to_cel_2 
+ 1235  ./far_to_cel_2 
+ 1236  gcc far_to_cel_2.c -o far_to_cel_2 
+ 1237  ./far_to_cel_2 
+ 1238  gcc far_to_cel_2.c -o far_to_cel_2 
+ 1239  ./far_to_cel_2 
+ 1240  gcc far_to_cel_3.c -o far_to_cel_3 
+ 1241  ./far_to_cel_3 
+ 1242  gcc far_to_cel_3.c -o far_to_cel_3 
+ 1243  ./far_to_cel_3 
+ 1244  gcc far_to_cel_3.c -o far_to_cel_3 
+ 1245  ./far_to_cel_3 
+ 1246  gcc getchar_putchar.c -o getchar_putchar
+ 1247  ./getchar_putchar 
+ 1248  gcc getchar_putchar.c -o getchar_putchar
+ 1249  ./getchar_putchar 
+ 1250  gcc getchar_putchar.c -o getchar_putchar
+ 1251  ./getchar_putchar 
+ 1252  gcc getchar_putchar.c -o getchar_putchar
+ 1253  ./getchar_putchar 
+ 1254  gcc getchar_putchar.c -o getchar_putchar
+ 1255  ./getchar_putchar 
+ 1256  gcc getchar_putchar.c -o getchar_putchar
+ 1257  ./getchar_putchar 
+ 1258  gcc getchar_putchar.c -o getchar_putchar
+ 1259  ./getchar_putchar 
+ 1260  gcc output_to_file.c -o output_to_file 
+ 1261  ./output_to_file 
+ 1262  gcc output_to_file.c -o output_to_file 
+ 1263  ./output_to_file 
+ 1264  gcc ex1_6.c -o ex1_6 
+ 1265  ./ex1_6 
+ 1266  gcc ex1_6.c -o ex1_6 
+ 1267  ./ex1_6 
+ 1268  gcc ex1_6.c -o ex1_6 
+ 1269  ./ex1_6 
+ 1270  gcc ex1_6.c -o ex1_6 
+ 1271  ./ex1_6 
+ 1272  gcc ex1_6.c -o ex1_6 
+ 1273  ./ex1_6 
+ 1274  gcc ex1_6.c -o ex1_6 
+ 1275  ./ex1_6 
+ 1276  gcc ex1_6.c -o ex1_6 
+ 1277  ./ex1_6 
+ 1278  gcc ex1_7.c -o ex1_7 
+ 1279  gcc ex_1_7.c -o ex_1_7 
+ 1280  ./ex_1_7 
+ 1281  gcc ex_1_7.c -o ex_1_7 
+ 1282  ./ex_1_7 
+ 1283  gcc ex_1_7.c -o ex_1_7 
+ 1284  ./ex_1_7 
+ 1285  gcc ex_1_7.c -o ex_1_7 
+ 1286  ./ex_1_7 
+ 1287  man patch 
+ 1288  cd /home/mamigo/mamigo_laeeq/uclinux_bfin/sound_stuff/patch_file/
+ 1289  ls
+ 1290  patch sigmadsp_endianness_fix.patch 
+ 1291  gedit sigmadsp_endianness_fix.patch 
+ 1292  sudo -i 
+ 1293  cd /srv/tftp/
+ 1294  sudo rm -rf uImage
+ 1295  sudo ln -s /home/mamigo/mamigo_laeeq/uclinux_bfin/uclinux_ext/blackfin-linux-dist/images/uImage .
+ 1296  ls -al |grep uIm
+ 1297  sudo atftpd --daemon
+ 1298  sudo -i 
+ 1299  sudo -i 
+ 1300  cd /srv/tftp/
+ 1301  ls
+ 1302  sudo rm -rf uImage
+ 1303  sudo ln -s /home/mamigo/mamigo_laeeq/uclinux_bfin/uclinux_ext/blackfin-linux-dist/images/uImage . 
+ 1304  sudo atftpd --daemon 
+ 1305  ls -l |grep u-
+ 1306  rdate 
+ 1307  ntpdate 
+ 1308  cd Downloads/
+ 1309  chmod a+x pytimechart-record.txt 
+ 1310  chmod a+x pytimechart-record.sh 
+ 1311  sh pytimechart-record.sh start 
+ 1312  sudo sh pytimechart-record.sh start 
+ 1313  sudo sh pytimechart-record.sh stop
+ 1314  pytimechart 
+ 1315  cd /home/mamigo/mamigo_laeeq/c_prog_K_and_R/ch1/
+ 1316  gcc ex_1_6_2.c -o ex_1_6_2 
+ 1317  ./ex_1_6_2 
+ 1318  gcc ex_162.c -o ex_162 
+ 1319  ./ex_162 
+ 1320  gcc ex_162.c -o ex_162 
+ 1321  ./ex_162 
+ 1322  gcc ex_162.c -o ex_162 
+ 1323  ./ex_162 
+ 1324  gcc ex_162.c -o ex_162 
+ 1325  ./ex_162 
+ 1326  gcc ex_162.c -o ex_162 
+ 1327  ./ex_162 
+ 1328  gcc ex_162.c -o ex_162 
+ 1329  ./ex_162 
+ 1330  gcc ex_162.c -o ex_162 
+ 1331  ./ex_162 
+ 1332  gcc ex_162.c -o ex_162 
+ 1333  ./ex_162 
+ 1334  gcc ex163.c -o ex163 
+ 1335  ./ex163 
+ 1336  gcc ex163.c -o ex163 
+ 1337  ./ex163 
+ 1338  gcc ex163.c -o ex163 
+ 1339  ./ex163 
+ 1340  sudo -i 
+ 1341  sudo -i 
+ 1342  cd /srv/tftp/
+ 1343  sudo rm -rf uImage
+ 1344  sudo ln -s /home/mamigo/mamigo_laeeq/uclinux_bfin/uclinux_ext/blackfin-linux-dist/images/uImage . 
+ 1345  sudo atftpd  --daemon 
+ 1346  sudo rm -rf uImage
+ 1347  sudo ln -s /home/mamigo/mamigo_laeeq/uclinux_bfin/md_image/blackfin-linux-dist/images/uImage . 
+ 1348  sudo rm -rf uImage
+ 1349  sudo ln -s /home/mamigo/mamigo_laeeq/uclinux_bfin/md_image/blackfin-linux-dist/images/uImage . 
+ 1350  cd /home/mamigo/mamigo_laeeq/uclinux_bfin/sound_stuff/
+ 1351  ls
+ 1352  cd sound_firmware/
+ 1353  ls
+ 1354  cd mamigo_laeeq/c_prog_K_and_R/ch1/
+ 1355  gcc ex_1_5_2.c -o ex_1_5_2 
+ 1356  ./ex_1_5_2 
+ 1357  gcc ex_1_5_2.c -o ex_1_5_2 
+ 1358  ./ex_1_5_2 
+ 1359  gcc ex_1_5_2.c -o ex_1_5_2 
+ 1360  ./ex_1_5_2 
+ 1361  gcc ex_1_5_2.c -o ex_1_5_2 
+ 1362  ./ex_1_5_2 
+ 1363  gcc char_counting_for.c -o char_counting_for 
+ 1364  ./char_counting_for 
+ 1365  gcc line_counting.c -o line_counting
+ 1366  ./line_counting 
+ 1367  gcc line_counting.c -o line_counting
+ 1368  ./line_counting 
+ 1369  gcc line_counting.c -o line_counting
+ 1370  ./line_counting 
+ 1371  gcc tab_line_blank_counting.c -o tab_line_blank_counting 
+ 1372  ./tab_line_blank_counting 
+ 1373  gcc blank_replace.c -o blank_replace
+ 1374  ./blank_replace 
+ 1375  gcc blank_replace.c -o blank_replace
+ 1376  ./blank_replace 
+ 1377  gcc blank_replace.c -o blank_replace
+ 1378  ./blank_replace 
+ 1379  gcc blank_replace.c -o blank_replace
+ 1380  ./blank_replace 
+ 1381  gcc blank_replace.c -o blank_replace
+ 1382  ./blank_replace 
+ 1383  gcc blank_replace.c -o blank_replace
+ 1384  ./blank_replace 
+ 1385  gcc blank_replace.c -o blank_replace
+ 1386  gcc blank_replace.c -o blank_replace -std=c99
+ 1387  ./blank_replace 
+ 1388  gcc blank_replace.c -o blank_replace -std=c99
+ 1389  ./blank_replace 
+ 1390  gcc blank_replace.c -o blank_replace -std=c99
+ 1391  ./blank_replace 
+ 1392  gcc blank_replace.c -o blank_replace -std=c99
+ 1393  ./blank_replace 
+ 1394  gcc blank_replace.c -o blank_replace -std=c99
+ 1395  gcc blank_replace.c -o blank_replace
+ 1396  ./blank_replace 
+ 1397  gcc blank_replace.c -o blank_replace
+ 1398  ./blank_replace 
+ 1399  gcc word_counting.c -o word_counting 
+ 1400  ./word_counting 
+ 1401  gcc one_word_per_line.c -o one_word_per_line 
+ 1402  ./one_word_per_line 
+ 1403  gcc one_word_per_line.c -o one_word_per_line 
+ 1404  ./one_word_per_line 
+ 1405  gcc one_word_per_line.c -o one_word_per_line 
+ 1406  ./one_word_per_line 
+ 1407  gcc one_word_per_line.c -o one_word_per_line 
+ 1408  ./one_word_per_line 
+ 1409  gcc one_word_per_line.c -o one_word_per_line 
+ 1410  ./one_word_per_line 
+ 1411  gcc one_word_per_line.c -o one_word_per_line 
+ 1412  ./one_word_per_line 
+ 1413  gcc one_word_per_line.c -o one_word_per_line 
+ 1414  ./one_word_per_line 
+ 1415  gcc one_word_per_line.c -o one_word_per_line 
+ 1416  ./one_word_per_line 
+ 1417  gcc one_word_per_line.c -o one_word_per_line 
+ 1418  ./one_word_per_line 
+ 1419  gcc one_word_per_line.c -o one_word_per_line 
+ 1420  ./one_word_per_line 
+ 1421  gcc one_word_per_line.c -o one_word_per_line 
+ 1422  ./one_word_per_line 
+ 1423  gcc replace_tab_withslash_tab.c -o replace_tab_withslash_tab 
+ 1424  ./replace_tab_withslash_tab 
+ 1425  gcc replace_tab_withslash_tab.c -o replace_tab_withslash_tab 
+ 1426  ./replace_tab_withslash_tab 
+ 1427  gcc replace_tab_withslash_tab.c -o replace_tab_withslash_tab 
+ 1428  gcc arrays1.c -o arrays1
+ 1429  ./arrays1 
+ 1430  ./arrays1 <<arrays1.c 
+ 1431  ./arrays1 
+ 1432  ls
+ 1433  ls -l |wc -l 
+ 1434  ls |wc 
+ 1435  ls |wc -l
+ 1436  ls
+ 1437  ls |wc -l 
+ 1438  man rsunc
+ 1439  man rsync 
+ 1440  exit
+ 1441  sudo -i 
+ 1442  sudo atftpd --daemon
+ 1443  sudo -i 
+ 1444  rsync /home/mamigo/mamigo_laeeq/c_prog_K_and_R/ch1/ /media/Laeeq_2GB/
+ 1445  rsync /home/mamigo/mamigo_laeeq/c_prog_K_and_R/ch1/ /media/Laeeq_2GB/ .
+ 1446  rsync /home/mamigo/mamigo_laeeq/c_prog_K_and_R/ch1/ /media/Laeeq_2GB/ -v
+ 1447  man rsync
+ 1448  rsync /home/mamigo/mamigo_laeeq/c_prog_K_and_R/ch1/ /media/Laeeq_2GB/ -r
+ 1449  cd /home/mamigo/mamigo_laeeq/c_prog_K_and_R/ch1/
+ 1450  ls
+ 1451  gcc 1histogram.c -o 1histogram 
+ 1452  ./1histogram 
+ 1453  gcc 1histogram.c -o 1histogram 
+ 1454  ./1histogram 
+ 1455  gcc 1histogram.c -o 1histogram 
+ 1456  ./1histogram 
+ 1457  gcc 1histogram.c -o 1histogram 
+ 1458  ./1histogram 
+ 1459  gcc 1histogram.c -o 1histogram 
+ 1460  ./1histogram 
+ 1461  gcc 1histogram.c -o 1histogram 
+ 1462  ./1histogram 
+ 1463  gcc 1histogram.c -o 1histogram 
+ 1464  ./1histogram 
+ 1465  gcc 1histogram.c -o 1histogram 
+ 1466  ./1histogram 
+ 1467  gcc 1histogram.c -o 1histogram 
+ 1468  ./1histogram 
+ 1469  gcc 1acsii.c -o 1acsii 
+ 1470  ./1acsii 
+ 1471  gcc 1acsii.c -o 1acsii 
+ 1472  ./1acsii 
+ 1473  gcc 1acsii.c -o 1acsii 
+ 1474  ./1acsii 
+ 1475  gcc 1acsii.c -o 1acsii 
+ 1476  ./1acsii 
+ 1477  gcc 1acsii.c -o 1acsii 
+ 1478  ./1acsii 
+ 1479  gcc 1acsii.c -o 1acsii 
+ 1480  ./1acsii 
+ 1481  gcc 1acsii.c -o 1acsii 
+ 1482  ./1acsii 
+ 1483  gcc 1acsii.c -o 1acsii 
+ 1484  ./1acsii 
+ 1485  gcc 1acsii.c -o 1acsii 
+ 1486  ./1acsii 
+ 1487  gcc 1acsii.c -o 1acsii 
+ 1488  ./1acsii 
+ 1489  gcc 1acsii.c -o 1acsii 
+ 1490  ./1acsii 
+ 1491  gcc 1acsii.c -o 1acsii 
+ 1492  ./1acsii 
+ 1493  gcc 1acsii.c -o 1acsii 
+ 1494  ./1acsii 
+ 1495  gcc 1acsii.c -o 1acsii 
+ 1496  ./1acsii 
+ 1497  gcc 1acsii.c -o 1acsii 
+ 1498  ./1acsii 
+ 1499  gcc 1acsii.c -o 1acsii 
+ 1500  ./1acsii 
+ 1501  gcc 1acsii.c -o 1acsii 
+ 1502  ./1acsii 
+ 1503  gcc 1histogram.c -o 1histogram 
+ 1504  ./1histogram 
+ 1505  gcc 1histogram.c -o 1histogram 
+ 1506  ./1histogram 
+ 1507  gcc 1histogram_freq.c -o 1histogram_freq
+ 1508  ./1histogram_freq 
+ 1509  gcc 1histogram_freq.c -o 1histogram_freq
+ 1510  ./1histogram_freq 
+ 1511  gcc 1histogram_freq.c -o 1histogram_freq
+ 1512  ./1histogram_freq 
+ 1513  gcc 1histogram_freq.c -o 1histogram_freq
+ 1514  ./1histogram_freq 
+ 1515  gcc 1histogram_freq.c -o 1histogram_freq
+ 1516  ./1histogram_freq 
+ 1517  gcc 1histogram_freq.c -o 1histogram_freq
+ 1518  ./1histogram_freq 
+ 1519  gcc 1histogram_freq.c -o 1histogram_freq
+ 1520  ./1histogram_freq 
+ 1521  gcc 1histogram_freq.c -o 1histogram_freq
+ 1522  ./1histogram_freq 
+ 1523  gcc 1histogram_freq.c -o 1histogram_freq
+ 1524  ./1histogram_freq 
+ 1525  gcc 1histogram_freq.c -o 1histogram_freq
+ 1526  ./1histogram_freq 
+ 1527  gcc 1histogram_freq.c -o 1histogram_freq
+ 1528  ./1histogram_freq 
+ 1529  gcc 1histogram_freq.c -o 1histogram_freq
+ 1530  ./1histogram_freq 
+ 1531  gcc 1histogram_freq.c -o 1histogram_freq
+ 1532  ./1histogram_freq 
+ 1533  gcc 1histogram_freq.c -o 1histogram_freq
+ 1534  ./1histogram_freq 
+ 1535  gcc 1histogram_freq.c -o 1histogram_freq
+ 1536  ./1histogram_freq 
+ 1537  ls
+ 1538  ./char_counting_for 
+ 1539  ./arrays1 
+ 1540  ./arrays1 <arrays1
+ 1541  ./arrays1 <arrays1.c
+ 1542  sudo poweroff
+ 1543  cd /home/mamigo/mamigo_laeeq/uclinux_bfin/md_image/blackfin-linux-dist
+ 1544  ls
+ 1545  cd /srv/tftp/
+ 1546  ls -al
+ 1547  ./eclipse_bfin.sh 
+ 1548  cd /home/mamigo/mamigo_laeeq/c_prog_K_and_R/ch1/
+ 1549  gcc 1func.c -o 1func 
+ 1550  ./1func 
+ 1551  gcc 1func.c -o 1func 
+ 1552  ./1func 
+ 1553  gcc 1func.c -o 1func 
+ 1554  ./1func 
+ 1555  gcc 2func.c -o 2func 
+ 1556  ./2func 
+ 1557  gcc 2func.c -o 2func 
+ 1558  ./2func 
+ 1559  ls
+ 1560  ./2func 
+ 1561  ls
+ 1562  sudo powertop
+ 1563  sudo poweroff
+ 1564  cd Downloads/
+ 1565  7z
+ 1566  sudo apt-get p7zip-full install -y 
+ 1567  sudo apt-get p7zip-full install 
+ 1568  sudo apt-get install p7zip-full
+ 1569  7z akiyo_qcif.7z 
+ 1570  man 7z
+ 1571  7z -e akiyo_qcif.7z 
+ 1572  7z e akiyo_qcif.7z 
+ 1573  7z e akiyo_qcif.7z /home/mamigo/mamigo_laeeq/
+ 1574  7z
+ 1575  7z e bus_cif.7z 
+ 1576  cp bus_cif.yuv /home/mamigo/mamigo_laeeq/vpx/libvpx/input_videos/
+ 1577  7z e stefan_cif.7z 
+ 1578  cp stefan_cif.yuv  /home/mamigo/mamigo_laeeq/vpx/libvpx/input_videos/
+ 1579  cd mamigo_laeeq/c_prog_K_and_R/ch1/
+ 1580  gcc 1long_line.c -o 1long_line 
+ 1581  ./1long_line 
+ 1582  gcc 1long_line.c -o 1long_line 
+ 1583  ./1long_line 
+ 1584  gcc 1long_line.c -o 1long_line 
+ 1585  ./1long_line 
+ 1586  gcc 1long_line.c -o 1long_line 
+ 1587  ./1long_line 
+ 1588  gcc 1long_line.c -o 1long_line 
+ 1589  ./1long_line 
+ 1590  yasm
+ 1591  sudo apt-get install yasm 
+ 1592  vpxenc /home/mamigo/mamigo_laeeq/vpx/libvpx/test_videos/bus_cif.y4m 
+ 1593  vpxenc /home/mamigo/mamigo_laeeq/vpx/libvpx/test_videos/bus_cif.y4m -o 1bus_cif.flv 
+ 1594  vpxenc /home/mamigo/mamigo_laeeq/vpx/libvpx/test_videos/bus_cif.y4m -o /home/mamigo/mamigo_laeeq/vpx/libvpx/output_videos/1bus_cif.flv 
+ 1595  vpxdec  /home/mamigo/mamigo_laeeq/vpx/libvpx/test_videos/bus_cif.y4m -o /home/mamigo/mamigo_laeeq/vpx/libvpx/output_videos/1dec_bus_cif.flv 
+ 1596  vpxdec 
+ 1597  vpxdec  /home/mamigo/mamigo_laeeq/vpx/libvpx/test_videos/bus_cif.y4m
+ 1598  vpxdec  /home/mamigo/mamigo_laeeq/vpx/libvpx/test_videos/bus_cif.y4m -o 1bus_dec
+ 1599  vpxdec  /home/mamigo/mamigo_laeeq/vpx/libvpx/test_videos/bus_cif.y4m -o 
+ 1600  vpxdec 
+ 1601  vpxdec -yv12  /home/mamigo/mamigo_laeeq/vpx/libvpx/test_videos/bus_cif.y4m -o 1bus_dec
+ 1602  vpxdec --yv12  /home/mamigo/mamigo_laeeq/vpx/libvpx/test_videos/bus_cif.y4m -o 1bus_dec
+ 1603  vpxdec --yv12  /home/mamigo/mamigo_laeeq/vpx/libvpx/test_videos/bus_cif.y4m -o 1bus_dec.wemb
+ 1604  vpxdec --yv12  /home/mamigo/mamigo_laeeq/vpx/libvpx/test_videos/bus_cif.y4m -o 1bus_dec.webm
+ 1605  vpxdec --yv12  /home/mamigo/mamigo_laeeq/vpx/libvpx/test_videos/bus_cif.y4m -o 1bus_dec.vp8
+ 1606  vpxdec --yv12  /home/mamigo/Desktop/elce-2011-gleixner-state-preempt-rt-450p.webm -o 1bus_dec.vp8
+ 1607  ls
+ 1608  time vpxenc /home/mamigo/mamigo_laeeq/vpx/libvpx/test_videos/bus_cif.y4m -o /home/mamigo/mamigo_laeeq/vpx/libvpx/output_videos/1bus_cif.flv 
+ 1609  time vpxenc /home/mamigo/mamigo_laeeq/vpx/libvpx/input_videos/bus_cif.y4m -o /home/mamigo/mamigo_laeeq/vpx/libvpx/output_videos/1bus_cif.flv 
+ 1610  time vpxenc --fps=30000/1001 /home/mamigo/mamigo_laeeq/vpx/libvpx/input_videos/bus_cif.y4m -o /home/mamigo/mamigo_laeeq/vpx/libvpx/output_videos/1bus_cif.flv 
+ 1611  time vpxenc --fps=30000/1001 /home/mamigo/mamigo_laeeq/vpx/libvpx/input_videos/akiyo_qcif.yuv -o /home/mamigo/mamigo_laeeq/vpx/libvpx/output_videos/1akiyo.flv 
+ 1612  time vpxenc --fps=30000/1001 -w=10 -h=10  /home/mamigo/mamigo_laeeq/vpx/libvpx/input_videos/akiyo_qcif.yuv -o /home/mamigo/mamigo_laeeq/vpx/libvpx/output_videos/1akiyo.flv 
+ 1613  time vpxenc --fps=30000/1001 --width=10 --hight=10  /home/mamigo/mamigo_laeeq/vpx/libvpx/input_videos/akiyo_qcif.yuv -o /home/mamigo/mamigo_laeeq/vpx/libvpx/output_videos/1akiyo.flv 
+ 1614  time vpxenc  /home/mamigo/mamigo_laeeq/vpx/libvpx/input_videos/akiyo_qcif.yuv -o /home/mamigo/mamigo_laeeq/vpx/libvpx/output_videos/1akiyo.flv 
+ 1615  time vpxenc  /home/mamigo/mamigo_laeeq/vpx/libvpx/input_videos/akiyo_qcif.yuv -o /home/mamigo/mamigo_laeeq/vpx/libvpx/output_videos/1akiyo.flv -h=200 -w=200
+ 1616  time vpxenc  /home/mamigo/mamigo_laeeq/vpx/libvpx/input_videos/akiyo_qcif.yuv -o /home/mamigo/mamigo_laeeq/vpx/libvpx/output_videos/1akiyo.flv --hight=200 --width=200
+ 1617  time vpxenc  /home/mamigo/mamigo_laeeq/vpx/libvpx/input_videos/akiyo_qcif.yuv -o /home/mamigo/mamigo_laeeq/vpx/libvpx/output_videos/1akiyo.flv --height=200 --width=200
+ 1618  time vpxenc --fps=30000/1001  /home/mamigo/mamigo_laeeq/vpx/libvpx/input_videos/akiyo_qcif.yuv -o /home/mamigo/mamigo_laeeq/vpx/libvpx/output_videos/1akiyo.flv --height=200 --width=200
+ 1619  man git 
+ 1620  git-gui
+ 1621  man git 
+ 1622  ls
+ 1623  cd mamigo_laeeq/
+ 1624  ls
+ 1625  mkdir vpx
+ 1626  cd vpx/
+ 1627  ls
+ 1628  git clone http://git.chromium.org/webm/libvpx.git 
+ 1629  ls
+ 1630  cd libvpx/
+ 1631  ls
+ 1632  cd build/
+ 1633  ls
+ 1634  ../configure 
+ 1635  make 
+ 1636  ls
+ 1637  vpddecode 
+ 1638  make install 
+ 1639  sudo make install 
+ 1640  vpe 
+ 1641  vpddecode 
+ 1642  man vpddecode 
+ 1643  vpxdec 
+ 1644  vpxenc 
+ 1645  ls
+ 1646  cd mamigo_laeeq/
+ 1647  ls
+ 1648  mkdir x264
+ 1649  cd x264/
+ 1650  ls
+ 1651  git clone --depth 1 git://git.videolan.org/x264
+ 1652  ls
+ 1653  cd x264/
+ 1654  ls
+ 1655  ./configure 
+ 1656  ./configure --enable-prof
+ 1657  ./configure --enable-gprof
+ 1658  make fprofiled 
+ 1659  make 
+ 1660  sudo make install 
+ 1661  ls
+ 1662  mkdir input_videos
+ 1663  mkdir output_videos
+ 1664  ./x264 input_videos/bus_cif.y4m -o output_videos/1bus_cif.flv 
+ 1665  time ./x264 input_videos/bus_cif.y4m -o output_videos/1bus_cif.flv 
+ 1666  top
+ 1667  cd mamigo_laeeq/c_prog_K_and_R/ch1/
+ 1668  gcc longline.c -o longline
+ 1669  ./longline 
+ 1670  gcc longline.c -o longline
+ 1671  ./longline 
+ 1672  gcc longline.c -o longline
+ 1673  ./longline 
+ 1674  gcc longline.c -o longline
+ 1675  ./longline 
+ 1676  gcc longlinelength.c -o longlinelength 
+ 1677  ./longlinelength 
+ 1678  gcc longlinelength.c -o longlinelength 
+ 1679  ./longlinelength 
+ 1680  gcc longlinelength.c -o longlinelength 
+ 1681  ./longlinelength 
+ 1682  gcc longlinelength.c -o longlinelength 
+ 1683  ./longlinelength 
+ 1684  man scp 
+ 1685  cd Downloads/
+ 1686  ls
+ 1687  cd mamigo_laeeq/vpx/libvpx/
+ 1688  ./configure --enable-gprof --enable-asm 
+ 1689  ./configure --help
+ 1690  ./configure --enable-gprof --target=x86-linux-gcc 
+ 1691  make 
+ 1692  sudo make install 
+ 1693  time vpxenc input_videos/coastguard_qcif.y4m -o output_videos/2coast_qcif_x86_asm.flv --psnr 
+ 1694  gprof vpxenc
+ 1695  gprof ./vpxenc
+ 1696  gprof  vpxenc input_videos/coastguard_qcif.y4m -o output_videos/2coast_qcif_x86_asm.flv --psnr 
+ 1697  time   vpxenc input_videos/coastguard_qcif.y4m -o output_videos/2coast_qcif_x86_asm.flv --psnr 
+ 1698  gprof vpxenc
+ 1699  time   vpxenc input_videos/coastguard_qcif.y4m -o output_videos/2coast_qcif_x86_asm.webm --psnr 
+ 1700  gprof vpxenc
+ 1701  time   vpxenc input_videos/bus_cif.y4m -o output_videos/2bus_cif.flv  --psnr 
+ 1702  cd mamigo_laeeq/x264/x264/
+ 1703  ls
+ 1704  time x264 input_videos/coastguard_qcif.y4m -o output_videos/2coas_qcif.flv --psnr 
+ 1705  gprof x264
+ 1706  time x264 input_videos/coastguard_qcif.y4m -o output_videos/2coas_qcif.flv --psnr 
+ 1707  time x264 input_videos/bus_cif.y4m -o output_videos/2bus_cif.flv --psnr 
+ 1708  sudo poweroff
+ 1709  cd mamigo_laeeq/c_prog_K_and_R/ch1/
+ 1710  gcc 1sizechecking.c -o 1sizechecking
+ 1711  ./1sizechecking 
+ 1712  gcc 1sizechecking.c -o 1sizechecking
+ 1713  ./1sizechecking 
+ 1714  gcc 1sizechecking.c -o 1sizechecking
+ 1715  ./1sizechecking 
+ 1716  gcc 1sizechecking.c -o 1sizechecking
+ 1717  ./1sizechecking 
+ 1718  gcc 1sizechecking.c -o 1sizechecking
+ 1719  ./1sizechecking 
+ 1720  gcc 1sizechecking.c -o 1sizechecking
+ 1721  ./1sizechecking 
+ 1722  gcc 1sizechecking.c -o 1sizechecking
+ 1723  ./1sizechecking 
+ 1724  gcc 1sizechecking.c -o 1sizechecking
+ 1725  ./1sizechecking 
+ 1726  gcc 1sizechecking.c -o 1sizechecking
+ 1727  ./1sizechecking 
+ 1728  gcc 1sizechecking.c -o 1sizechecking
+ 1729  ./1sizechecking 
+ 1730  sudo -i 
+ 1731  cd mamigo_laeeq/c_prog_K_and_R/ch1/
+ 1732  gcc 1tab_replacing.c -o 1tab_replacing 
+ 1733  ./1tab_replacing 
+ 1734  gcc 1tab_replacing.c -o 1tab_replacing 
+ 1735  ./1tab_replacing 
+ 1736  gcc 1tab_replacing.c -o 1tab_replacing 
+ 1737  ./1tab_replacing <<1tab_replacing.c 
+ 1738  ./1tab_replacing < 1tab_replacing.c 
+ 1739  gcc 1black_replacing.c -o 1black_replacing 
+ 1740  ./1black_replacing 
+ 1741  gcc 1black_replacing.c -o 1black_replacing 
+ 1742  ./1black_replacing 
+ 1743  gcc 1black_replacing.c -o 1black_replacing 
+ 1744  ./1black_replacing 
+ 1745  ./1black_replacing < 1black_replacing.c 
+ 1746  gcc 1prac.c -o 1prac.c 
+ 1747  gcc 1lll.c -o 1lll
+ 1748  ./1lll 
+ 1749  gcc 1lll.c -o 1lll
+ 1750  ./1lll 
+ 1751  gcc 1lll.c -o 1lll
+ 1752  ./1lll 
+ 1753  gcc 1lll.c -o 1lll
+ 1754  ./1lll 
+ 1755  gcc 1lll.c -o 1lll
+ 1756  ./1lll 
+ 1757  gcc 1lll.c -o 1lll
+ 1758  ./1lll 
+ 1759  gcc 1lll.c -o 1lll
+ 1760  ./1lll 
+ 1761  gcc 1lll.c -o 1lll
+ 1762  ./1lll 
+ 1763  gcc 1lll.c -o 1lll
+ 1764  gets
+ 1765  man gets
+ 1766  gcc 1lll.c -o 1lll
+ 1767  ./1lll 
+ 1768  gcc 1lll.c -o 1lll
+ 1769  ./1lll 
+ 1770  gcc 1lll.c -o 1lll
+ 1771  ./1lll 
+ 1772  gcc 1lll.c -o 1lll
+ 1773  ./1lll 
+ 1774  gcc 1lll.c -o 1lll
+ 1775  ./1lll 
+ 1776  gcc 1lll.c -o 1lll
+ 1777  ./1lll 
+ 1778  gcc 1atoi.c -o 1atoi
+ 1779  ./1atoi 
+ 1780  gcc 1atoi.c -o 1atoi
+ 1781  ./1atoi 
+ 1782  gcc 1atoi.c -o 1atoi
+ 1783  ./1atoi 
+ 1784  gcc 1atoi.c -o 1atoi
+ 1785  ./1atoi 
+ 1786  gcc 1atoi.c -o 1atoi
+ 1787  ./1atoi 
+ 1788  gcc 1atoi.c -o 1atoi
+ 1789  ./1atoi 
+ 1790  gcc 1atoi.c -o 1atoi
+ 1791  ./1atoi 
+ 1792  gcc 1atoi.c -o 1atoi
+ 1793  ./1atoi 
+ 1794  gcc 1atoi.c -o 1atoi
+ 1795  ./1atoi 
+ 1796  gcc 1atoi.c -o 1atoi
+ 1797  ./1atoi 
+ 1798  ./1atoi 10 
+ 1799  ./1atoi 
+ 1800  gcc 1atoi.c -o 1atoi
+ 1801  ./1atoi h
+ 1802  gcc 1atoi.c -o 1atoi
+ 1803  ./1atoi ffff
+ 1804  gcc 1atoi.c -o 1atoi
+ 1805  ./1atoi ffff
+ 1806  gcc 1atoi.c -o 1atoi
+ 1807  ./1atoi f
+ 1808  gcc 1atoi.c -o 1atoi
+ 1809  ./1atoi f
+ 1810  ./1atoi 
+ 1811  gcc 1atoi.c -o 1atoi
+ 1812  ./1atoi 
+ 1813  gcc 1atoi.c -o 1atoi
+ 1814  gcc 1atoi.c -o 1atoi -std=c99
+ 1815  gcc 1atoi.c -o 1atoi
+ 1816  ./1atoi 10
+ 1817  ./1atoi ggg
+ 1818  gcc 1atoi.c -o 1atoi
+ 1819  ./1atoi f
+ 1820  ./1atoi 10
+ 1821  gcc 1atoi.c -o 1atoi
+ 1822  ./1atoi 10
+ 1823  gcc 1atoi.c -o 1atoi
+ 1824  ./1atoi 10
+ 1825  ./1atoi f
+ 1826  ./1atoi
+ 1827  ./1atoi k
+ 1828  ./1atoi 555
+ 1829  gcc 1test.c -o 1test
+ 1830  ./1test 
+ 1831  gcc 1test.c -o 1test
+ 1832  ./1test 
+ 1833  gcc 1test.c -o 1test
+ 1834  ./1test 
+ 1835  gcc 1test.c -o 1test
+ 1836  gcc 1atoi.c -o 1atoi
+ 1837  ./1atoi
+ 1838  man fgets
+ 1839  gcc 1test.c -o 1test
+ 1840  ./1test 
+ 1841  fgets
+ 1842  man fgets
+ 1843  gcc 1test.c -o 1test
+ 1844  gcc 1rightrot.c -o 1rightrot 
+ 1845  ./1rightrot 
+ 1846  gcc 1rightrot.c -o 1rightrot 
+ 1847  ./1rightrot 
+ 1848  gcc 1rightrot.c -o 1rightrot 
+ 1849  ./1rightrot 
+ 1850  gcc 1rightrot.c -o 1rightrot 
+ 1851  ./1rightrot 
+ 1852  gcc 1rightrot.c -o 1rightrot 
+ 1853  ./1rightrot 
+ 1854  gcc 1rightrot.c -o 1rightrot 
+ 1855  ./1rightrot 
+ 1856  gcc 1rightrot.c -o 1rightrot 
+ 1857  ./1rightrot 
+ 1858  gcc 1rightrot.c -o 1rightrot 
+ 1859  ./1rightrot 
+ 1860  gcc 1ifelse.c -o 1ifelse 
+ 1861  ./1ifelse 
+ 1862  gcc 1ifelse.c -o 1ifelse 
+ 1863  ./1ifelse 
+ 1864  gcc 1ifelse.c -o 1ifelse 
+ 1865  ./1ifelse 
+ 1866  gcc 1lower_ques.c -o 1lower_ques
+ 1867  gcc 1ifelse.c -o 1ifelse 
+ 1868  gcc 1lower_ques.c -o 1lower_ques
+ 1869  ./1lower_ques 
+ 1870  gcc 1lower_ques.c -o 1lower_ques
+ 1871  ./1lower_ques 
+ 1872  gcc 1lower_ques.c -o 1lower_ques
+ 1873  ./1lower_ques 
+ 1874  gcc 1lower_ques.c -o 1lower_ques
+ 1875  ./1lower_ques 
+ 1876  gcc 1lower_ques.c -o 1lower_ques
+ 1877  ./1lower_ques 
+ 1878  gcc 1lower_ques.c -o 1lower_ques
+ 1879  ./1lower_ques 
+ 1880  gcc 1lower_ques.c -o 1lower_ques
+ 1881  ./1lower_ques 
+ 1882  gcc 1lower_ques.c -o 1lower_ques
+ 1883  ./1lower_ques 
+ 1884  gcc 1lower_ques.c -o 1lower_ques
+ 1885  ./1lower_ques 
+ 1886  gcc 1lower_ques.c -o 1lower_ques
+ 1887  ./1lower_ques 
+ 1888  gcc 1lower_ques.c -o 1lower_ques
+ 1889  ./1lower_ques 
+ 1890  gcc 1lower_ques.c -o 1lower_ques
+ 1891  ./1lower_ques 
+ 1892  gcc 1lower_ques.c -o 1lower_ques
+ 1893  ./1lower_ques 
+ 1894  gcc 1lower_ques.c -o 1lower_ques
+ 1895  ./1lower_ques 
+ 1896  gcc 1lower_ques.c -o 1lower_ques
+ 1897  ./1lower_ques 
+ 1898  sudo poweroff
+ 1899  cd mamigo_laeeq/tools_imp/kchahegrind/kcachegrind-0.7.1/
+ 1900  ls
+ 1901  qmake 
+ 1902  make 
+ 1903  cmake .
+ 1904  sudo apt-get install cmake 
+ 1905  cmake .
+ 1906  sudo apt-get install kprof 
+ 1907  kprof 
+ 1908  cd mamigo_laeeq/c_prog_K_and_R/ch1/
+ 1909  gcc 1squeeze.c -o 1squeeze 
+ 1910  ./1squeeze 
+ 1911  gcc 1squeeze.c -o 1squeeze 
+ 1912  ./1squeeze 
+ 1913  gcc 1squeeze.c -o 1squeeze 
+ 1914  ./1squeeze 
+ 1915  gcc 1squeeze.c -o 1squeeze 
+ 1916  ./1squeeze 
+ 1917  gcc 1squeeze.c -o 1squeeze 
+ 1918  ./1squeeze 
+ 1919  gcc 1delmatching.c -o 1delmatching
+ 1920  ./1delmatching 
+ 1921  gcc 1delmatching.c -o 1delmatching
+ 1922  ./1delmatching 
+ 1923  gcc 1delmatching.c -o 1delmatching
+ 1924  ./1delmatching 
+ 1925  gcc 1delmatching.c -o 1delmatching
+ 1926  ./1delmatching 
+ 1927  gcc 1delmatching.c -o 1delmatching
+ 1928  ./1delmatching 
+ 1929  gcc 1delmatching.c -o 1delmatching
+ 1930  ./1delmatching 
+ 1931  gcc 1delmatching.c -o 1delmatching
+ 1932  ./1delmatching 
+ 1933  gcc 1delmatching.c -o 1delmatching
+ 1934  ./1delmatching 
+ 1935  gcc 1delmatching.c -o 1delmatching
+ 1936  ./1delmatching 
+ 1937  gcc 1delmatching.c -o 1delmatching
+ 1938  ./1delmatching 
+ 1939  gcc 1binsearch.c -o 1binsearch 
+ 1940  ./1binsearch 
+ 1941  gcc 1binsearch.c -o 1binsearch 
+ 1942  ./1binsearch 
+ 1943  gcc 1binsearch.c -o 1binsearch 
+ 1944  ./1binsearch 
+ 1945  gcc 1binsearch.c -o 1binsearch 
+ 1946  ./1binsearch 
+ 1947  gcc 1binsearch.c -o 1binsearch 
+ 1948  ./1binsearch 
+ 1949  gcc 1binsearch.c -o 1binsearch 
+ 1950  ./1binsearch 
+ 1951  gcc 1binsearch.c -o 1binsearch 
+ 1952  ./1binsearch 
+ 1953  gcc 1binsearch.c -o 1binsearch 
+ 1954  ./1binsearch 
+ 1955  cd mamigo_laeeq/c_prog_K_and_R/ch1/
+ 1956  gcc 1switch.c -o 1switch 
+ 1957  ./1switch 
+ 1958  gcc 1switch.c -o 1switch 
+ 1959  ./1switch 
+ 1960  cd mamigo_laeeq/c_prog_K_and_R/ch1/
+ 1961  gcc 1checksign.c -o 1checksign 
+ 1962  ./1checksign 
+ 1963  gcc 1checksign.c -o 1checksign 
+ 1964  ./1checksign 
+ 1965  gcc 1patternsearching.c -o 1patternsearching 
+ 1966  gcc 1patternsearching.c -o 1patternsearching -lm 
+ 1967  gcc 1patternsearching.c -o 1patternsearching 
+ 1968  ./1patternsearching 
+ 1969  gcc 1patternsearching.c -o 1patternsearching 
+ 1970  ./1patternsearching 
+ 1971  gcc 1patternsearching.c -o 1patternsearching 
+ 1972  ./1patternsearching 
+ 1973  gcc 1patternsearching.c -o 1patternsearching 
+ 1974  ./1patternsearching 
+ 1975  gcc 1patternsearching.c -o 1patternsearching 
+ 1976  ./1patternsearching 
+ 1977  gcc 1patternsearching.c -o 1patternsearching 
+ 1978  ./1patternsearching 
+ 1979  gcc 1patternsearching.c -o 1patternsearching 
+ 1980  ls
+ 1981  gcc 1atof.c -o 1atof 
+ 1982  ./1atof 
+ 1983  ls
+ 1984  ifconfig 
+ 1985  sudo poweroff
+ 1986  sudo apt-get install ntp 
+ 1987  sudo gedit /etc/ntp.conf 
+ 1988  sudo service ntp restart 
+ 1989  sudo ntpq -np 
+ 1990  sudo ntpq -c lpeer 
+ 1991  sudo tail -f /var/log/syslog
+ 1992  sudo ntpq -c lpeer 
+ 1993  ntpd -q 217.67.231.25
+ 1994  ntpd --q 217.67.231.25
+ 1995  ntpd
+ 1996  sudo tail -f /var/log/syslog
+ 1997  git help 
+ 1998  sudo apt-get install gitk 
+ 1999  git config --global user.name 'laeeqentc'
+ 2000  git config --global user.email laeeqentc@gmail.com
+ 2001  ls
+ 2002  cd mamigo_laeeq/
+ 2003  ls
+ 2004  git clone https://github.com/laeeqentc/C_code_base.git
+ 2005  ls
+ 2006  cd c_prog_K_and_R/
+ 2007  ls
+ 2008  cd ch1/
+ 2009  ls
+ 2010  git push  https://github.com/laeeqentc/C_code_base.git
+ 2011  git commit   https://github.com/laeeqentc/C_code_base.git
+ 2012  ls
+ 2013  gitk 
+ 2014  cd ..
+ 2015  ls
+ 2016  cd ..
+ 2017  ls
+ 2018  cd C_code_base/
+ 2019  ls
+ 2020  gitk 
+ 2021  git-gui 
+ 2022  ls
+ 2023  cd ..
+ 2024  cd mkdir test_one_1
+ 2025  cd test_one_1/
+ 2026  ls
+ 2027  git init 
+ 2028  gedit README
+ 2029  git add README
+ 2030  git commit -m 'first commit '
+ 2031  git remote add origin https://github.com/laeeqentc/test_one.git
+ 2032  git push origin master 
+ 2033  cd ..
+ 2034  ren
+ 2035  man rename 
+ 2036  git remote add origin https://github.com/laeeqentc/test_one.git
+ 2037  cd test_one/
+ 2038  git remote add origin https://github.com/laeeqentc/test_one.git
+ 2039  git push origin master 
+ 2040  git config --global user.name "laeeqentc"
+ 2041  git config --global user.email "laeeqentc@gmail.com"
+ 2042  git config --global credential.helper cache 
+ 2043  git config --global credential.helper 'cache --timeout=3600'
+ 2044  git add README
+ 2045  git commit -m 'first commit'
+ 2046  git remote add origin https://github.com/laeeqentc/test_one.git
+ 2047  git push origin master 
+ 2048  git --version 
+ 2049  git remote -v 
+ 2050  git push origin master 
+ 2051  ls -al 
+ 2052  chmod a+x README 
+ 2053  git push origin master 
+ 2054  cd ..
+ 2055  ls
+ 2056  cd c_prog_K_and_R/
+ 2057  cd ch1/
+ 2058  ls
+ 2059  git init 
+ 2060  git add . 
+ 2061  git commit -m 'my first commit' 
+ 2062  git show 
+ 2063  git commit -m 'my first commit' 
+ 2064  git remote v 
+ 2065  git remote -v 
+ 2066  git push 
+ 2067  git remote add origin https://github.com/laeeqentc/test_one.git
+ 2068  git push 
+ 2069  git remote 
+ 2070  git push 
+ 2071  git remote -v 
+ 2072  git push origin master 
+ 2073  ls
+ 2074  set GIT_CURL_VERBOSE=1
+ 2075  git push origin master 
+ 2076  git push 
+ 2077  git remote set-url origin git@github.com:laeeqentc/C_code_base.git
+ 2078  git push origin master 
+ 2079  git remote set-url origin laeeqentc@github.com:laeeqentc/C_code_base.git
+ 2080  git push origin master 
+ 2081  git --version 
+ 2082  sudo apt-get install git 
+ 2083  cat /etc/sysctl.conf 
+ 2084  sudo add-apt-repository ppa:git-core/ppa
+ 2085  sudo apt-get update 
+ 2086  sudo apt-get install git 
+ 2087  git remote add origin https://github.com/laeeqentc/test_one.git
+ 2088  git remote -v 
+ 2089  git push origin master 
+ 2090  git remote add origin https://github.com/laeeqentc/test_one.git
+ 2091  git remote -v 
+ 2092  git push https://github.com/laeeqentc/test_one.git  master 
+ 2093  git pull 
+ 2094  git remote rm origin 
+ 2095  git remote -v 
+ 2096  ls
+ 2097  git push https://github.com/laeeqentc/test_one.git  master 
+ 2098  git push --help 
+ 2099  git push https://github.com/laeeqentc/C-code_base.git  master 
+ 2100  git push https://github.com/laeeqentc/test_one.git  master 
+ 2101  git pull https://github.com/laeeqentc/test_one.git
+ 2102  git push https://github.com/laeeqentc/test_one.git  master 
+ 2103  ls
+ 2104  history >> /home/mamigo/mamigo_laeeq/git_commands_imp.txt 
