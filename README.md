@@ -1,4 +1,1 @@
-test_one
-========
-
-test_one
+This repo contains all important C program. From soultions to Let us C or K&R C or in general important programs for concepts, this contains them all. Slowly and gradually i wish to add relevant code here. More systematically even a Makefile. All in all i want this ot serve as a good revesion repo for C. 
